@@ -19,7 +19,7 @@ body {
 .main {
   width: 100%;
   max-height: 100vh;
-  background-image: url(/images/pattern-background-mobile.svg);
+  background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -216,6 +216,6 @@ body {
 }
 @media screen and (min-width: 1400px) {
   .main {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
   }
 }/*# sourceMappingURL=style.css.map */
