@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip calculator app solution
+# Frontend Mentor - Order summary component solution
 
 This is a solution to the [Order summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -27,7 +27,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [SOLUTION](https://github.com/bjaneczko/Component_order-summary)
-- Live Site URL: [LIVE SITE](--)
+- Live Site URL: [LIVE SITE](https://bjaneczko.github.io/Component_order-summary/)
 
 ## Built with
 
