@@ -13,27 +13,30 @@ html {
 
 body {
   font-family: "Red Hat Display", sans-serif;
+  width: 100%;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: #e0e8ff;
+  background-position: top;
 }
 
 .main {
-  width: 100%;
-  max-height: 100vh;
-  background-image: url(./images/pattern-background-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  width: 100vw;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .card {
+  margin-top: 7rem;
   width: 88%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +49,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  margin-top: 7rem;
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -215,7 +217,7 @@ body {
   }
 }
 @media screen and (min-width: 1400px) {
-  .main {
+  body {
     background-image: url(./images/pattern-background-desktop.svg);
   }
 }/*# sourceMappingURL=style.css.map */
